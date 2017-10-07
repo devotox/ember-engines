@@ -7,6 +7,7 @@ module.exports = ManifestGenerator.extend({
   name: 'ember-engines',
   manifestOptions: {
     bundlesLocation: 'engines-dist',
+    filesToIgnore: [/\/config\/environment.js$/],
   },
 
   /**
